@@ -5,7 +5,7 @@ Comparing two styles of programming
 
 In this C programme example, I try to show the difference between two programming style through two functions:
 ###### check_partten(), which I wrote:
-```
+```c
 int check_partten(char source[], char pattern[]) {
 
 	int first_pattern_char = pattern[0];
@@ -28,7 +28,7 @@ int check_partten(char source[], char pattern[]) {
 &nbsp;
 
 ###### strindex(), which is copied from the The C Programming Language 2nd by Kernighan & Ritchie:
-```
+```c
 int strindex(char s[], char t[]) {
 	int i, j, k;
 	for (i = 0; s[i] != '\0'; i++) {
