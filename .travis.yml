@@ -3,4 +3,3 @@ sudo: false
 script:
   - gcc check_pattern.c -o check_pattern
   - ./check_pattern Sense_and_Sensibility_by_Jane_Austen.txt Elinor
-  - gcov check_pattern.c
