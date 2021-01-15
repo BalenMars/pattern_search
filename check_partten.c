@@ -32,9 +32,9 @@ int main(int argc, char **argv) {
 	if (fp == NULL)
 		exit(EXIT_FAILURE);
 
-	int number_of_Elinor = 0;
+	int number_of_pattern = 0;
 	char *pattern = argv[2];
-	int pattern_length = 6;
+	int pattern_length = strlen(pattern);
 	int check_partten_return;
 	int number_of_lines = 0;
 
@@ -51,7 +51,7 @@ int main(int argc, char **argv) {
 		while (check_partten_return != -1) {
 			check_partten_return = check_partten(line, pattern);
 			if (check_partten_return != -1){
-				number_of_Elinor++;
+				number_of_pattern++;
 				printf(printf_format, pattern, number_of_lines, check_partten_return);
 			}
 			line += (check_partten_return + pattern_length);
@@ -60,7 +60,7 @@ int main(int argc, char **argv) {
 		line = NULL;
 	}
 
-	printf("Number of pattern %s found: %d\n", pattern, number_of_Elinor);
+	printf("Number of pattern %s found: %d\n", pattern, number_of_pattern);
 
 	fclose(fp);
 	if (line)
