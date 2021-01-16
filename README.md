@@ -3,7 +3,7 @@ Comparing two styles of programming
 
 [![Build Status](https://travis-ci.com/BalenMars/pattern_search.svg?branch=main)](https://travis-ci.com/BalenMars/pattern_search)
 
-In this C programme example, I try to show the difference between two programming style through two functions:
+In this C programme example, I try to show the difference between two programming styles through two C functions:
 ###### check_partten(), which I wrote:
 ```c
 int check_partten(char source[], char pattern[]) {
