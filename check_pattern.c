@@ -46,7 +46,7 @@ int main(int argc, char **argv) {
 			line[read-1] = '\0';
 
 		check_partten_return = 0;
-		char *printf_format = "Found %s at line %d with index %d\n";
+		char *printf_format = "Found pattern \"%s\" at line %d with index %d\n";
 
 		while (check_partten_return != -1) {
 			check_partten_return = check_partten(line, pattern);
