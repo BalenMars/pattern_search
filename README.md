@@ -1,5 +1,5 @@
 # pattern_search
-Comparing two styles of programming 
+Comparing two styles of programming in C 
 
 [![Build Status](https://travis-ci.com/BalenMars/pattern_search.svg?branch=main)](https://travis-ci.com/BalenMars/pattern_search)
 
