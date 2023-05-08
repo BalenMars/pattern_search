@@ -40,6 +40,6 @@ int strindex(char s[], char t[]) {
 ```
 &nbsp;
 
-I argue that the former is much cleaner and more readable than the later, which I think is a bad style and should be avoided.
+I argue that the former is much cleaner and more readable than the latter, which I think is a bad style and should be avoided.
 
 &nbsp;
